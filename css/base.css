@@ -49,42 +49,79 @@ main {
 
 
     main {
+        height: 767px;
+        width: 480px;
         background-color: aquamarine;
+        overflow: scroll;
     }
 
-    #top {
+    #a {
         border: black solid 1px;
         height: 75px;
         width: 480px;
-        display: inline-block;
+        line-height: 75px;
     }
 
-    #sideLeft {
+    #b {
         border: black solid 1px;
         height: 150px;
         width: 480px;
-        display: inline-block;
+        line-height: 150px;
+
     }
 
-    #mid>p {
+    #c {
         border: black solid 1px;
         height: 125px;
         width: 480px;
-        display: inline-block;
+        line-height: 125px;
     }
 
-    #square>p {
+    #d {
+        border: black solid 1px;
+        height: 125px;
+        width: 480px;
+        line-height: 125px;
+    }
+
+    #e {
         border: black solid 1px;
         height: 250px;
         width: 240px;
-        display: inline-block;
+        float: left;
+        line-height: 250px;
     }
 
-    #bottom {
+    #f {
+        border: black solid 1px;
+        height: 250px;
+        width: 240px;
+        float: left;
+        line-height: 250px;
+    }
+
+    #g {
+        border: black solid 1px;
+        height: 250px;
+        width: 240px;
+        line-height: 250px;
+        float: left;
+    }
+
+    #h {
+        border: black solid 1px;
+        height: 250px;
+        width: 240px;
+        line-height: 250px;
+        float: left;
+    }
+
+    #i {
         border: black solid 1px;
         height: 80px;
         width: 480px;
-        display: inline-block;
+        line-height: 80px;
+        float: left;
     }
 
 }
