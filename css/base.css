@@ -5,123 +5,85 @@ body {
 }
 
 main {
-    display: inline-block;
-    max-width: 960px;
+    height: 768px;
+    width: 960px;
+    overflow: scroll;
+    background-color: olive
+}
+
+
+
+#a {
+    border: black solid 1px;
+    height: 100px;
+    width: 960px;
+    line-height: 100px;
+    background-color: chartreuse;
+}
+
+#b {
+    border: black solid 1px;
+    height: 600px;
+    width: 200px;
+    line-height: 600px;
     background-color: brown;
+    float: left;
+}
+
+#c {
+    border: black solid 1px;
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    background-color: yellow;
+}
+
+#d {
+    border: black solid 1px;
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    background-color: purple;
+}
+
+#e {
+    border: black solid 1px;
+    height: 250px;
+    width: 195px;
+    line-height: 250px;
+    background-color: pink;  
+}
+
+#f {
+    border: black solid 1px;
+    height: 250px;
+    width: 195px;
+    line-height: 250px;
+    background-color: white; 
+}
+
+#g {
+    border: black solid 1px;
+    height: 250px;
+    width: 195px;
+    line-height: 250px;
+     background-color: goldenrod;
+}
+
+#h {
+    border: black solid 1px;
+    height: 250px;
+    width: 195px;
+    line-height: 250px;
+    background-color: lightsalmon;    
+}
+
+#i {
+    border: black solid 1px;
+    height: 150px;
+    width: 960px;
+    line-height: 150px;
+    background-color: chocolate;    
 }
 
 
-
-#top {
-
-}
-
-#sideLeft {
-
-}
-
-#mid {
-
-}
-
-#square {
-
-}
-
-#bottom {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* mobile */
-
-@media (max-width: 768px) {
-
-
-    main {
-        height: 767px;
-        width: 480px;
-        background-color: aquamarine;
-        overflow: scroll;
-    }
-
-    #a {
-        border: black solid 1px;
-        height: 75px;
-        width: 480px;
-        line-height: 75px;
-    }
-
-    #b {
-        border: black solid 1px;
-        height: 150px;
-        width: 480px;
-        line-height: 150px;
-
-    }
-
-    #c {
-        border: black solid 1px;
-        height: 125px;
-        width: 480px;
-        line-height: 125px;
-    }
-
-    #d {
-        border: black solid 1px;
-        height: 125px;
-        width: 480px;
-        line-height: 125px;
-    }
-
-    #e {
-        border: black solid 1px;
-        height: 250px;
-        width: 240px;
-        float: left;
-        line-height: 250px;
-    }
-
-    #f {
-        border: black solid 1px;
-        height: 250px;
-        width: 240px;
-        float: left;
-        line-height: 250px;
-    }
-
-    #g {
-        border: black solid 1px;
-        height: 250px;
-        width: 240px;
-        line-height: 250px;
-        float: left;
-    }
-
-    #h {
-        border: black solid 1px;
-        height: 250px;
-        width: 240px;
-        line-height: 250px;
-        float: left;
-    }
-
-    #i {
-        border: black solid 1px;
-        height: 80px;
-        width: 480px;
-        line-height: 80px;
-        float: left;
-    }
-
-}
